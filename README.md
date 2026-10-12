@@ -42,65 +42,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Salesforce Identity Connect](https://help.salesforce.com/)**  
-
-  Synchronizes users and groups from Active Directory to Salesforce. Enables SSO via SAML and automates user provisioning/deprovisioning based on AD group membership.
-
-
-
-- **[Okta Universal Directory](https://www.okta.com/)**  
-
-  Centralized identity store supporting any number of user attributes and custom schemas. Features directory integration, profile mastering, and lifecycle management across apps.
-
-
-
-- **[Microsoft Entra Connect](https://www.microsoft.com/en-us/security/business/)**  
-
-  Synchronizes on-premises Active Directory with Microsoft Entra ID (Azure AD). Enables hybrid identity, password hash sync, pass-through authentication, and seamless SSO.
-
-
-
-- **[JumpCloud Directory Insights](https://jumpcloud.com/)**  
-
-  Cloud-based directory platform with event logging and audit trails. Features cross-platform user management, device management, and SSO across cloud and on-prem resources.
-
-
-
-- **[OneLogin Desktop](https://www.onelogin.com/)**  
-
-  Desktop SSO solution for Mac and Windows. Provides seamless login to cloud apps and on-prem resources with MFA enforcement.
-
-
-
-- **[PingFederate](https://www.pingidentity.com/)**  
-
-  Enterprise federation server supporting SAML, OAuth, OIDC, and WS-Fed. Features identity bridging, attribute mapping, and high-availability clustering.
-
-
-
-- **[DualShield](https://www.deepnetsecurity.com/)**  
-
-  Enterprise authentication platform with SSO, MFA, and directory integration. Supports AD, LDAP, and RADIUS with flexible policy controls.
-
-
-
-- **[miniOrange SSO](https://www.miniorange.com/)**  
-
-  Affordable SSO and MFA solution for cloud and on-prem apps. Supports SAML, OAuth, JWT, and directory sync.
-
-
-
-- **[Rippling Identity](https://www.rippling.com/)**  
-
-  Unified identity and device management platform. Features HRIS-driven provisioning, SSO, and automated onboarding/offboarding workflows.
-
-
-
-- **[Google Cloud Identity](https://cloud.google.com/identity)**  
-
-  Cloud-native identity platform with directory sync from AD/LDAP, SSO, MFA, and device management. Integrates with Google Workspace and GCP.
+| Platform | Description | Pricing (Starting Tier) | Free Tier Limits / Trial |
+| :--- | :--- | :--- | :--- |
+| **[Salesforce Identity Connect](https://help.salesforce.com/)** | Synchronizes users and groups from Active Directory to Salesforce. Enables SSO via SAML and automates user provisioning/deprovisioning based on AD group membership. | $1 per user/month (billed annually as Enterprise/Performance/Unlimited edition add-on) | 30-day trial (standard Salesforce trial); Developer Edition includes 10 Identity Connect licenses free forever |
+| **[Okta Universal Directory](https://www.okta.com/)** | Centralized identity store supporting any number of user attributes and custom schemas. Features directory integration, profile mastering, and lifecycle management across apps. | $6 per user/month (Workforce Starter Suite; $1,500/year contract minimum) | 30-day free trial (fully functional workforce sandbox up to 100 users, no credit card required) |
+| **[Microsoft Entra Connect](https://www.microsoft.com/en-us/security/business/)** | Synchronizes on-premises Active Directory with Microsoft Entra ID (Azure AD). Enables hybrid identity, password hash sync, pass-through authentication, and seamless SSO. | Free sync tool included; Entra ID P1 starts at $6.00 per user/month | Free forever plan included with Microsoft cloud services (up to 50,000 directory objects, or 300,000 with custom domain; core SSO & MFA) |
+| **[JumpCloud Directory Insights](https://jumpcloud.com/)** | Cloud-based directory platform with event logging and audit trails. Features cross-platform user management, device management, and SSO across cloud and on-prem resources. | $9 per user/month (Device Management; SSO Package starts at $11 per user/month billed annually) | 30-day free trial (full platform access with all premium features and directory sync; no credit card required) |
+| **[OneLogin Desktop](https://www.onelogin.com/)** | Desktop SSO solution for Mac and Windows. Provides seamless login to cloud apps and on-prem resources with MFA enforcement. | $2 per user/month (Starter SSO package billed annually) | 30-day free trial (unlimited app connections, desktop SSO, MFA, and cloud directory integration) |
+| **[PingFederate](https://www.pingidentity.com/)** | Enterprise federation server supporting SAML, OAuth, OIDC, and WS-Fed. Features identity bridging, attribute mapping, and high-availability clustering. | $3 per user/month (PingOne Workforce Essential; enterprise on-prem PingFederate deployments start at ~$50,000/year) | 30-day free trial (PingOne cloud evaluation sandbox supporting up to 1,000 active identities) |
+| **[DualShield](https://www.deepnetsecurity.com/)** | Enterprise authentication platform with SSO, MFA, and directory integration. Supports AD, LDAP, and RADIUS with flexible policy controls. | $1.50 per user/month (estimate based on minimum 100-user enterprise license tiers via reseller channels) | 30-day free trial (available upon proof-of-concept request for on-prem/private cloud evaluation) |
+| **[miniOrange SSO](https://www.miniorange.com/)** | Affordable SSO and MFA solution for cloud and on-prem apps. Supports SAML, OAuth, JWT, and directory sync. | $1.50 per user/month (Cloud IAM Essential SSO plan) | Free forever plan for small environments (up to 500 users with basic SSO/directory sync); 30-day free trial for premium enterprise tier |
+| **[Rippling Identity](https://www.rippling.com/)** | Unified identity and device management platform. Features HRIS-driven provisioning, SSO, and automated onboarding/offboarding workflows. | $8 per user/month (Unity base platform + $6 per user/month for Identity/App Management module) | 14-day free trial (available for IT Cloud & Identity Management modules upon demo verification) |
+| **[Google Cloud Identity](https://cloud.google.com/identity)** | Cloud-native identity platform with directory sync from AD/LDAP, SSO, MFA, and device management. Integrates with Google Workspace and GCP. | $6 per user/month (Cloud Identity Premium edition) | Free forever plan (Cloud Identity Free includes up to 50 user licenses, SSO, MFA, and AD/LDAP directory sync) |
 
 
 
