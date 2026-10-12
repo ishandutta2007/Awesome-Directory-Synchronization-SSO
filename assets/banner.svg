@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradient -->
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .bg-grid { stroke: rgba(255, 255, 255, 0.04); stroke-width: 1; }
+    .pulse-ring { transform-origin: center; animation: pulse 4s ease-in-out infinite; }
+    .orbit-1 { animation: rotate 24s linear infinite; transform-origin: 1020px 170px; }
+    .orbit-2 { animation: rotate-rev 18s linear infinite; transform-origin: 1020px 170px; }
+    .particle { animation: float 6s ease-in-out infinite; }
+    .particle-delayed { animation: float 6s ease-in-out 3s infinite; }
+    .sync-line { stroke-dasharray: 6 6; animation: dash 20s linear infinite; }
+    
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 0.25; }
+      50% { transform: scale(1.08); opacity: 0.55; }
+    }
+    @keyframes rotate {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes rotate-rev {
+      0% { transform: rotate(360deg); }
+      100% { transform: rotate(0deg); }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+    @keyframes dash {
+      to { stroke-dashoffset: -1000; }
+    }
+  </style>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="340" fill="url(#bgGrad)" rx="16" />
+
+  <!-- Subtle Animated Grid Lines -->
+  <g class="bg-grid">
+    <line x1="0" y1="68" x2="1200" y2="68" />
+    <line x1="0" y1="136" x2="1200" y2="136" />
+    <line x1="0" y1="204" x2="1200" y2="204" />
+    <line x1="0" y1="272" x2="1200" y2="272" />
+    <line x1="150" y1="0" x2="150" y2="340" />
+    <line x1="300" y1="0" x2="300" y2="340" />
+    <line x1="450" y1="0" x2="450" y2="340" />
+    <line x1="600" y1="0" x2="600" y2="340" />
+    <line x1="750" y1="0" x2="750" y2="340" />
+    <line x1="900" y1="0" x2="900" y2="340" />
+    <line x1="1050" y1="0" x2="1050" y2="340" />
+  </g>
+
+  <!-- Background Ambient Glows (Behind Everything) -->
+  <circle cx="1020" cy="170" r="130" fill="#6366f1" opacity="0.12" class="pulse-ring" />
+  <circle cx="1020" cy="170" r="90" fill="#38bdf8" opacity="0.15" class="pulse-ring" />
+
+  <!-- Animated Synchronizing Identity Network Graphics on Right -->
+  <g>
+    <!-- Dynamic Orbiting Connector Lines -->
+    <circle cx="1020" cy="170" r="110" fill="none" stroke="rgba(99, 102, 241, 0.3)" stroke-width="1.5" stroke-dasharray="4 6" class="sync-line" />
+    <circle cx="1020" cy="170" r="70" fill="none" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1.5" stroke-dasharray="5 5" class="sync-line" />
+
+    <!-- Central Centralized Directory Core Node -->
+    <circle cx="1020" cy="170" r="32" fill="#1e1b4b" stroke="#38bdf8" stroke-width="2.5" filter="url(#glow)" />
+    <!-- Identity Key / Shield Icon Inside Core -->
+    <path d="M1012 164 C1012 159 1028 159 1028 164 C1028 174 1020 178 1020 183 L1020 185 M1020 188 L1020 190" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" fill="none" />
+
+    <!-- Orbit 1 Nodes (SAML, OIDC, SCIM, AD) -->
+    <g class="orbit-1">
+      <!-- Node: SCIM -->
+      <g transform="translate(1020, 60)">
+        <circle cx="0" cy="0" r="18" fill="#0f172a" stroke="#6366f1" stroke-width="2" />
+        <text x="0" y="4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" fill="#818cf8" text-anchor="middle">SCIM</text>
+      </g>
+      <!-- Node: SAML -->
+      <g transform="translate(1130, 170)">
+        <circle cx="0" cy="0" r="18" fill="#0f172a" stroke="#a855f7" stroke-width="2" />
+        <text x="0" y="4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" fill="#c084fc" text-anchor="middle">SAML</text>
+      </g>
+      <!-- Node: OIDC -->
+      <g transform="translate(1020, 280)">
+        <circle cx="0" cy="0" r="18" fill="#0f172a" stroke="#38bdf8" stroke-width="2" />
+        <text x="0" y="4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" fill="#38bdf8" text-anchor="middle">OIDC</text>
+      </g>
+      <!-- Node: LDAP -->
+      <g transform="translate(910, 170)">
+        <circle cx="0" cy="0" r="18" fill="#0f172a" stroke="#10b981" stroke-width="2" />
+        <text x="0" y="4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" fill="#34d399" text-anchor="middle">LDAP</text>
+      </g>
+    </g>
+
+    <!-- Orbit 2 Nodes (Rotating opposite direction) -->
+    <g class="orbit-2">
+      <!-- Satellites -->
+      <circle cx="970" cy="120" r="6" fill="#38bdf8" opacity="0.8" />
+      <circle cx="1070" cy="220" r="5" fill="#a855f7" opacity="0.8" />
+      <circle cx="970" cy="220" r="5.5" fill="#6366f1" opacity="0.8" />
+      <circle cx="1070" cy="120" r="6" fill="#34d399" opacity="0.8" />
+    </g>
+  </g>
+
+  <!-- Foreground Title and Content (Unobstructed Left & Center) -->
+  <g transform="translate(60, 0)">
+    <!-- Top Category Badge Pill -->
+    <g transform="translate(0, 48)">
+      <rect width="250" height="28" rx="14" fill="url(#cardGrad)" stroke="rgba(99, 102, 241, 0.4)" stroke-width="1" />
+      <circle cx="16" cy="14" r="5" fill="#34d399" />
+      <text x="28" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#93c5fd" letter-spacing="0.5">CURATED ECOSYSTEM • 2026</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="40" font-weight="800" fill="#ffffff" letter-spacing="-0.5">
+      Directory Sync &amp; SSO
+    </text>
+
+    <!-- Gradient Subtitle Bar / Catchphrase -->
+    <text x="0" y="162" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="600" fill="url(#glowGrad)">
+      Identity Federation • User Provisioning • Single Sign-On
+    </text>
+
+    <!-- Description Paragraph -->
+    <text x="0" y="198" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#94a3b8">
+      Top enterprise SaaS platforms and battle-tested open-source projects for SCIM,
+    </text>
+    <text x="0" y="219" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#94a3b8">
+      SAML 2.0, OpenID Connect, LDAP synchronization, and multi-tenant IAM.
+    </text>
+
+    <!-- Feature Attribute Badges / Pills -->
+    <g transform="translate(0, 252)">
+      <!-- Pill 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="130" height="30" rx="8" fill="#1e293b" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+        <text x="65" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0" text-anchor="middle">⚡ SCIM 2.0 Sync</text>
+      </g>
+      <!-- Pill 2 -->
+      <g transform="translate(142, 0)">
+        <rect width="140" height="30" rx="8" fill="#1e293b" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+        <text x="70" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0" text-anchor="middle">🔐 SAML &amp; OIDC SSO</text>
+      </g>
+      <!-- Pill 3 -->
+      <g transform="translate(294, 0)">
+        <rect width="140" height="30" rx="8" fill="#1e293b" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+        <text x="70" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0" text-anchor="middle">📂 AD &amp; LDAP Bridges</text>
+      </g>
+      <!-- Pill 4 -->
+      <g transform="translate(446, 0)">
+        <rect width="140" height="30" rx="8" fill="#1e293b" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+        <text x="70" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0" text-anchor="middle">🌐 100% Open Source</text>
+      </g>
+    </g>
+  </g>
+</svg>

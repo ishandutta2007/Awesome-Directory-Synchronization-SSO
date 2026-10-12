@@ -1,50 +1,52 @@
-# Awesome-Directory-Synchronization-SSO
+# 🔐 Awesome Directory Synchronization & SSO
 
-## Top Directory Synchronization & SSO Ecosystem
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Directory Synchronization &amp; SSO Banner" width="100%" />
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Directory-Synchronization-SSO/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Directory-Synchronization-SSO?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Directory-Synchronization-SSO/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Directory-Synchronization-SSO?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Directory-Synchronization-SSO/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## ⚡ Top Directory Synchronization, IAM & Single Sign-On (SSO) Ecosystem
 
-*Focused on Identity Federation, User Provisioning & Single Sign-On*  
+> 🎯 **A comprehensive, SEO-optimized, curated guide to enterprise SaaS platforms and self-hosted open-source software for Identity Federation, Directory Synchronization (SCIM/LDAP/Active Directory), and Single Sign-On (SAML 2.0 / OpenID Connect / OAuth 2.1).**
 
-**Last updated: March 2026**
+*📅 Last updated: March 2026*
 
+This directory tracks battle-tested **enterprise SaaS suites** and high-performance **open-source identity infrastructure** powering modern identity synchronization and authentication workflows. Whether you are provisioning thousands of enterprise seats across hybrid Active Directory forests or automating just-in-time (JIT) SAML and SCIM sync into SaaS apps, this curated ecosystem covers everything from turn-key cloud IdPs to self-hosted zero-trust identity architectures.
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Directory Synchronization & SSO**. These tools enable organizations to centralize identity management, synchronize user directories across systems, and provide Single Sign-On access to applications — reducing password fatigue and improving security posture.
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Enterprise Platforms](#️-saas--hosted-enterprise-platforms)
+- [🚀 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Architecture & Best Practices](#️-architecture--best-practices)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsoring](#-support--sponsoring)
+- [⭐ Star History](#-star-history)
+- [📜 Disclaimer](#-disclaimer)
 
+---
 
-**Examples** include Salesforce Identity Connect, Okta Universal Directory, Microsoft Entra Connect, JumpCloud Directory Insights, OneLogin Desktop, PingFederate, DualShield, miniOrange SSO, Rippling Identity, and Google Cloud Identity (the category leaders).
+## 📊 Sector Overview & Market Dynamics
 
+The global **Identity and Access Management (IAM)** and **Single Sign-On (SSO)** market is valued between **$24B and $27B in 2026** (with the dedicated enterprise SSO and federation market representing approximately **$4.5B to $5.5B**), accelerating at a CAGR of ~12%–14%. 
 
+The sector features an **oligopolistic, heavily concentrated structure at the enterprise core**—dominated by hyperscalers and dedicated platform champions including **Microsoft Entra ID** and **Okta**. Concurrently, there is **moderate to high fragmentation across the modular identity and developer tooling layers**, where agile SaaS platforms and robust open-source engines lead the charge for multi-tenant CIAM, SCIM 2.0 provisioning bridges, passkey/FIDO2 authentication, and vendor-neutral hybrid directory synchronization.
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom identity federation, and open directory synchronization — ideal for organizations seeking transparent, vendor-independent identity infrastructure.
+---
 
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
-
-The global Identity and Access Management (IAM) and Single Sign-On (SSO) market is estimated at **$24B–$27B in 2026** (with the dedicated enterprise SSO segment representing approximately **$4.5B–$5.5B**), growing at an annual rate of 12%–14%. The sector exhibits an **oligopolistic, highly concentrated structure at the enterprise core**—dominated by hyperscalers and dedicated platform giants like Microsoft Entra ID and Okta—alongside **moderate fragmentation across specialized tiers**, where emerging SaaS vendors and open-source stacks cater to hybrid directory syncing, CIAM, and decentralized protocol workflows.
-
-
-
-## SaaS/Hosted Platforms
+## ☁️ SaaS & Hosted Enterprise Platforms
 
 | Platform | Company Size (Valuation / Market Cap / Revenue) | Description | Pricing (Starting Tier) | Free Tier Limits / Trial |
 | :--- | :--- | :--- | :--- | :--- |
@@ -59,154 +61,170 @@ The global Identity and Access Management (IAM) and Single Sign-On (SSO) market 
 | **[miniOrange SSO](https://www.miniorange.com/)** | Bootstrapped / Private (~$18M Annual Revenue) | Affordable SSO and MFA solution for cloud and on-prem apps. Supports SAML, OAuth, JWT, and directory sync. | $1.50 per user/month (Cloud IAM Essential SSO plan) | Free forever plan for small environments (up to 500 users with basic SSO/directory sync); 30-day free trial for premium enterprise tier |
 | **[DualShield](https://www.deepnetsecurity.com/)** | Privately Held / Niche (~$3M–$5M Annual Revenue) | Enterprise authentication platform with SSO, MFA, and directory integration. Supports AD, LDAP, and RADIUS with flexible policy controls. | $1.50 per user/month (estimate based on minimum 100-user enterprise license tiers via reseller channels) | 30-day free trial (available upon proof-of-concept request for on-prem/private cloud evaluation) |
 
+---
 
+## 🚀 Open-Source GitHub Projects
 
-## Open-Source GitHub Projects
+*Sorted in descending order by GitHub Stargazers. Each project includes social badge metrics linking directly to its stargazer community.*
 
+- **[Keycloak](https://github.com/keycloak/keycloak)** [![Stars](https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white)](https://github.com/keycloak/keycloak/stargazers)  
+  Leading open-source identity and access management platform (Apache-2.0), hosted under the CNCF. Supports SSO, social sign-in, MFA, LDAP/Active Directory user federation, Kerberos, SAML 2.0, and OpenID Connect with dynamic high-availability clustering.
 
+- **[Authelia](https://github.com/authelia/authelia)** [![Stars](https://img.shields.io/github/stars/authelia/authelia?style=social&color=white)](https://github.com/authelia/authelia/stargazers)  
+  The Single Sign-On Multi-Factor portal for web applications (Apache-2.0). OpenID Certified™ and post-quantum cryptography ready. Integrates seamlessly with reverse proxies (Nginx, Traefik, Caddy, Envoy) and LDAP/Active Directory backend directories.
 
-- **[Keycloak](https://github.com/keycloak/keycloak)**  
+- **[Authentik](https://github.com/goauthentik/authentik)** [![Stars](https://img.shields.io/github/stars/goauthentik/authentik?style=social&color=white)](https://github.com/goauthentik/authentik/stargazers)  
+  Modern, customizable open-source Identity Provider (GPL-3.0/MIT elements). Features SAML 2.0, OAuth2/OIDC, forward-auth, LDAP outpost synchronization, SCIM provisioning, and flexible flow orchestration for self-hosters and enterprises alike.
 
-  Leading open-source identity and access management platform (Apache-2.0), a CNCF project. Features SSO, social login, MFA, LDAP/AD integration, SAML, OIDC, and a comprehensive admin console. Robust clustering for high availability .
+- **[Sa-Token](https://github.com/dromara/Sa-Token)** [![Stars](https://img.shields.io/github/stars/dromara/Sa-Token?style=social&color=white)](https://github.com/dromara/Sa-Token/stargazers)  
+  High-performance, lightweight Java authentication and authorization framework (Apache-2.0). Includes built-in Single Sign-On (SSO) modes, OAuth 2.0 server capabilities, distributed session management, and microservice gateway token synchronization.
 
+- **[Ory Hydra](https://github.com/ory/hydra)** [![Stars](https://img.shields.io/github/stars/ory/hydra?style=social&color=white)](https://github.com/ory/hydra/stargazers)  
+  Hardened, headless OpenID Certified™ OpenID Connect and OAuth 2.1 authorization server (Apache-2.0). Connects with any identity directory or existing user management system to power secure API and SSO federation at enterprise scale.
 
+- **[SuperTokens](https://github.com/supertokens/supertokens-core)** [![Stars](https://img.shields.io/github/stars/supertokens/supertokens-core?style=social&color=white)](https://github.com/supertokens/supertokens-core/stargazers)  
+  Modular, open-source alternative to Auth0, AWS Cognito, and Firebase Auth (Apache-2.0). Provides end-to-end Enterprise SSO (SAML/OIDC), session architecture, user role management, and multi-tenant directory authentication.
 
-- **[ZITADEL](https://github.com/zitadel/zitadel)**  
+- **[ZITADEL](https://github.com/zitadel/zitadel)** [![Stars](https://img.shields.io/github/stars/zitadel/zitadel?style=social&color=white)](https://github.com/zitadel/zitadel/stargazers)  
+  Cloud-native identity infrastructure built for multi-tenancy and auditability (Apache-2.0). Provides turnkey SSO, Passkeys/FIDO2, OIDC, SAML, SCIM 2.0 directory provisioning, LDAP bridging, and an immutable event stream.
 
-  Open-source identity infrastructure (Apache-2.0) built for multi-tenancy. Features SSO, MFA, Passkeys, OIDC, SAML, SCIM, LDAP, and comprehensive audit trail via immutable event stream. API-first with gRPC, connectRPC, and REST .
+- **[OAuth2 Proxy](https://github.com/oauth2-proxy/oauth2-proxy)** [![Stars](https://img.shields.io/github/stars/oauth2-proxy/oauth2-proxy?style=social&color=white)](https://github.com/oauth2-proxy/oauth2-proxy/stargazers)  
+  Reverse proxy and SSO authentication layer (MIT) providing authentication against major IdPs (Google, Azure AD, Keycloak, GitHub, and generic OIDC/OAuth providers) for internal infrastructure and legacy web apps.
 
+- **[Logto](https://github.com/logto-io/logto)** [![Stars](https://img.shields.io/github/stars/logto-io/logto?style=social&color=white)](https://github.com/logto-io/logto/stargazers)  
+  Modern open-source identity and access management suite (MPL-2.0). Built on OIDC and OAuth 2.1 with native multi-tenancy, enterprise SSO, automated role-based access control (RBAC), and developer-friendly administration APIs.
 
+- **[Casdoor](https://github.com/casdoor/casdoor)** [![Stars](https://img.shields.io/github/casdoor/casdoor?style=social&color=white)](https://github.com/casdoor/casdoor/stargazers)  
+  UI-first identity and access management platform (Apache-2.0). Supports OAuth 2.0, OIDC, SAML, CAS, LDAP synchronization, SCIM directory provisioning, WebAuthn, TOTP, and direct sync with Google Workspace and Azure AD.
 
-- **[Authentik](https://github.com/goauthentik/authentik)**  
+- **[Ory Kratos](https://github.com/ory/kratos)** [![Stars](https://img.shields.io/github/ory/kratos?style=social&color=white)](https://github.com/ory/kratos/stargazers)  
+  Next-generation, headless cloud-native identity and user management system (Apache-2.0). Handles self-service registration, multi-factor authentication (MFA), passwordless passkeys, profile schemas, and secure session management.
 
-  Open-source Identity Provider (MIT) for modern SSO. Supports SAML, OAuth2/OIDC, LDAP, RADIUS, and more. Designed for self-hosting from small labs to large production clusters. User-friendly interface simplifies complex identity tasks .
+- **[Apereo CAS](https://github.com/apereo/cas)** [![Stars](https://img.shields.io/github/apereo/cas?style=social&color=white)](https://github.com/apereo/cas/stargazers)  
+  Enterprise-grade multilingual Single Sign-On engine for the web (Apache-2.0). Supports CAS protocol, SAML 2.0, OAuth 2.0, OpenID Connect, WS-Federation, and deep bidirectional synchronization with LDAP, Active Directory, and relational databases.
 
+- **[Dex](https://github.com/dexidp/dex)** [![Stars](https://img.shields.io/github/dexidp/dex?style=social&color=white)](https://github.com/dexidp/dex/stargazers)  
+  OpenID Connect (OIDC) identity provider and authentication broker (Apache-2.0) with pluggable connectors. Acts as a federation portal to LDAP, SAML, GitHub, Google, and Active Directory across Kubernetes and cloud environments.
 
+- **[Hanko](https://github.com/teamhanko/hanko)** [![Stars](https://img.shields.io/github/teamhanko/hanko?style=social&color=white)](https://github.com/teamhanko/hanko/stargazers)  
+  Lightweight passkey-first authentication and user management engine (AGPL-3.0). Supports WebAuthn, social logins, Enterprise SAML SSO, TOTP, and embedded authentication widgets with ultra-fast latency.
 
-- **[Ory](https://github.com/ory)**  
+- **[Kanidm](https://github.com/kanidm/kanidm)** [![Stars](https://img.shields.io/github/kanidm/kanidm?style=social&color=white)](https://github.com/kanidm/kanidm/stargazers)  
+  Modern, fast, and secure identity management platform and directory service written in Rust (MPL-2.0). Operates as an alternative to FreeIPA and Active Directory with built-in OAuth2/OIDC, RADIUS, and SSH key management.
 
-  Modular, cloud-native identity stack (Apache-2.0). Components include Ory Kratos (identity management), Ory Hydra (OAuth2/OIDC), and Ory Keto (authorization). API-first design optimized for Kubernetes and headless implementations .
+- **[pac4j](https://github.com/pac4j/pac4j)** [![Stars](https://img.shields.io/github/pac4j/pac4j?style=social&color=white)](https://github.com/pac4j/pac4j/stargazers)  
+  Multi-protocol security engine for Java frameworks (Apache-2.0). Supports SAML, CAS, OpenID Connect, OAuth, LDAP, and JWT federation across Spring Boot, Play, Dropwizard, and J2EE applications.
 
+- **[BoxyHQ Jackson](https://github.com/boxyhq/jackson)** [![Stars](https://img.shields.io/github/boxyhq/jackson?style=social&color=white)](https://github.com/boxyhq/jackson/stargazers)  
+  Enterprise SSO & Directory Sync service (Apache-2.0). Provides turnkey SAML 2.0, OIDC, and SCIM 2.0 directory synchronization (supporting Okta, Azure AD, Google Workspace, and OneLogin) as an API service.
 
+- **[caddy-security](https://github.com/greenpau/caddy-security)** [![Stars](https://img.shields.io/github/greenpau/caddy-security?style=social&color=white)](https://github.com/greenpau/caddy-security/stargazers)  
+  Enterprise authentication and authorization plugin for the Caddy v2 web server (Apache-2.0). Implements SAML, OIDC, OAuth 2.0, LDAP, MFA, and local directory federation natively.
 
-- **[FusionAuth](https://github.com/FusionAuth/fusionauth)**  
+- **[MaxKey](https://github.com/dromara/MaxKey)** [![Stars](https://img.shields.io/github/dromara/MaxKey?style=social&color=white)](https://github.com/dromara/MaxKey/stargazers)  
+  Enterprise IAM / IDaaS platform (Apache-2.0). Supports OAuth 2.0, OIDC, SAML 2.0, CAS, JWT, and SCIM user lifecycle management with RBAC permission models and LDAP synchronization.
 
-  Developer-focused identity platform (Apache-2.0 for community). Features SSO, MFA, social login, advanced registration forms, and extensive API/SDK support. Engineered to handle millions of users with horizontal scaling .
+- **[privacyIDEA](https://github.com/privacyidea/privacyidea)** [![Stars](https://img.shields.io/github/privacyidea/privacyidea?style=social&color=white)](https://github.com/privacyidea/privacyidea/stargazers)  
+  Modular multi-factor authentication and token management system (AGPL-3.0). Synchronizes with existing user stores (LDAP, Active Directory, SQL, flat files) and powers OTP, Push, and FIDO2/WebAuthn tokens.
 
+- **[SSOReady](https://github.com/ssoready/ssoready)** [![Stars](https://img.shields.io/github/ssoready/ssoready?style=social&color=white)](https://github.com/ssoready/ssoready/stargazers)  
+  Open-source developer toolsuite for shipping Enterprise SAML Single Sign-On and SCIM directory synchronization (MIT). Provides intuitive SDKs across TypeScript, Python, Go, and Java.
 
+- **[Rauthy](https://github.com/sebadob/rauthy)** [![Stars](https://img.shields.io/github/sebadob/rauthy?style=social&color=white)](https://github.com/sebadob/rauthy/stargazers)  
+  Fast, lightweight Single Sign-On Identity & Access Management server written in Rust (Apache-2.0). Implements OpenID Connect, OAuth 2.0, WebAuthn passkeys, and PAM/Linux synchronization with minimal resource usage.
 
-- **[Nubus](https://github.com/univention/nubus)**  
+- **[SimpleSAMLphp](https://github.com/simplesamlphp/simplesamlphp)** [![Stars](https://img.shields.io/github/simplesamlphp/simplesamlphp?style=social&color=white)](https://github.com/simplesamlphp/simplesamlphp/stargazers)  
+  Battle-tested PHP-native authentication and federation suite (LGPL-2.1). Industry standard for configuring SAML 2.0 Identity Providers and Service Providers across academic, government, and enterprise directories.
 
-  Modular open-source IAM solution (AGPL-3.0) for organizations and software stacks. Features central web portal, SSO, self-service functions, and prebuilt integrations for common systems. Supports Kubernetes, on-premises, and hybrid deployment .
+- **[OpenAM](https://github.com/OpenIdentityPlatform/OpenAM)** [![Stars](https://img.shields.io/github/OpenIdentityPlatform/OpenAM?style=social&color=white)](https://github.com/OpenIdentityPlatform/OpenAM/stargazers)  
+  Community-maintained enterprise access management solution (CDDL-1.0). Provides federated SSO (SAML 2.0, OAuth2, OpenID Connect), fine-grained authorization, and directory entitlements.
 
+- **[Apache Syncope](https://github.com/apache/syncope)** [![Stars](https://img.shields.io/github/apache/syncope?style=social&color=white)](https://github.com/apache/syncope/stargazers)  
+  Digital identity management platform from the Apache Software Foundation (Apache-2.0). Specializes in identity provisioning, access governance, SCIM 2.0 connectivity, and bidirectional directory reconciliation across disparate stores.
 
+- **[LSC (LDAP Synchronization Connector)](https://github.com/lsc-project/lsc)** [![Stars](https://img.shields.io/github/lsc-project/lsc?style=social&color=white)](https://github.com/lsc-project/lsc/stargazers)  
+  Robust open-source directory synchronization tool (BSD license). Connects relational databases, Active Directory, OpenLDAP, and flat files to synchronize, transform, and normalize user and group data via Groovy/JavaScript scripting.
 
-- **[Logto](https://github.com/logto-io/logto)**  
+- **[AWS SSO SCIM Sync](https://github.com/slashdevops/idp-scim-sync)** [![Stars](https://img.shields.io/github/slashdevops/idp-scim-sync?style=social&color=white)](https://github.com/slashdevops/idp-scim-sync/stargazers)  
+  Automated identity connector tool written in Go (Apache-2.0) that synchronizes users and groups from Google Workspace directories into AWS IAM Identity Center (AWS SSO) via SCIM.
 
-  Open-source identity and access management (MPL-2.0) for modern apps. Features OIDC, SAML, social login, MFA, RBAC, and organization-scoped login. Self-hostable via Docker Compose with management API for user migration .
+- **[Gravitee Access Management](https://github.com/gravitee-io/gravitee-access-management)** [![Stars](https://img.shields.io/github/gravitee-io/gravitee-access-management?style=social&color=white)](https://github.com/gravitee-io/gravitee-access-management/stargazers)  
+  API-first Identity and Access Management platform (Apache-2.0) securing microservices and applications with OAuth 2.0, OpenID Connect, SCIM provisioning, and step-up MFA.
 
+- **[Nubus](https://github.com/univention/nubus)** [![Stars](https://img.shields.io/github/univention/nubus?style=social&color=white)](https://github.com/univention/nubus/stargazers)  
+  Modular, sovereign open-source IAM stack (AGPL-3.0) by Univention. Delivers centralized user directories, self-service portals, SSO, and Kubernetes/hybrid enterprise integration.
 
-
-- **[Kivraid](https://github.com/kivraid/kivraid)**  
-
-  Lightweight open-source identity provider (license varies) shipped as a single static Go binary with embedded SQLite. Features OIDC provider, forward auth, LDAP, TOTP, passkeys, admin console, and audit trail. Idles at ~26 MB RAM .
-
-
-
-- **[LSC (LDAP Synchronization Connector)](https://github.com/Worteks/lsc)**  
-
-  Open-source directory synchronization tool (BSD license) written in Java. Reads from databases, LDAP directories, or files and transforms/compares data to an LDAP directory. Features powerful scripting engine (JavaScript, Groovy) for on-the-fly data manipulation and Active Directory-specific functions .
-
-
-
-- **[ssoready](https://github.com/ssoready/ssoready)**  
-
-  Open-source developer tools for enterprise SSO (MIT). Ship SAML + SCIM support quickly. Includes SDKs for multiple languages .
-
-
-
-- **[BoxyHQ Jackson](https://github.com/boxyhq/jackson)**  
-
-  Open-source SSO service (Apache-2.0) supporting SAML and OpenID Connect. Also supports Directory Sync via SCIM 2.0 for automatic user and group provisioning/deprovisioning .
-
-
-
-- **[MaxKey](https://github.com/dromara/MaxKey)**  
-
-  Leading IAM/IDaaS product (Apache-2.0). Supports OAuth2.x, OIDC, SAML2.0, CAS, JWT, SCIM and other SSO standard protocols. RBAC-based unified permission control with user lifecycle management .
-
-
-
-- **[OpenAM](https://github.com/OpenIdentityPlatform/OpenAM)**  
-
-  Open-source access management solution (CDDL) including authentication, SSO, authorization, federation, entitlements, and web services security .
-
-
-
-- **[Hanko](https://github.com/teamhanko/hanko)**  
-
-  Open-source authentication and user management (AGPL-3.0). Focus on passkeys, with support for social logins, SAML SSO, MFA (TOTP, security keys), and OAuth SSO. API-first with small footprint .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[SimpleSAMLphp](https://github.com/simplesamlphp/simplesamlphp)** — Native PHP authentication application (LGPL-2.1) for SAML federation .
-
-- **[pac4j](https://github.com/pac4j/pac4j)** — Security engine for Java (Apache-2.0) supporting OAuth, CAS, SAML, OIDC, LDAP, JWT .
-
-- **[caddy-security](https://github.com/greenpau/caddy-security)** — Authentication/authorization plugin for Caddy v2 with SAML, OIDC, LDAP, MFA support .
-
-- **[privacyIDEA](https://github.com/privacyidea/privacyidea)** — Multi-factor authentication system (AGPL-3.0) with OTP server .
-
-- **[slashtags](https://github.com/slashdevops/idp-scim-sync)** — Sync AWS SSO groups/users with Google Workspace directory .
-
-- **[Gravitee Access Management](https://github.com/gravitee-io/gravitee-access-management)** — Open-source IAM solution (Apache-2.0) .
-
-- Community **awesome-auth** list for comprehensive AuthN+Z resources .
-
-
-
-**Frameworks for building custom systems**: Combine **Keycloak** or **ZITADEL** as the core IdP with **LSC** for directory synchronization, **BoxyHQ Jackson** for SCIM provisioning, **Hanko** for passkey-first authentication, and **PostgreSQL** for persistence — creating a fully self-hosted, enterprise-grade identity platform.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Identity platforms handling authentication data must comply with security regulations (SOC 2, GDPR, ISO 27001, etc.).
-
-- Self-hosted open-source solutions require proper security hardening, certificate management, and ongoing maintenance. Identity infrastructure is security-critical and should be deployed with appropriate expertise.
-
-
+- **[Kivraid](https://github.com/kivraid/kivraid)** [![Stars](https://img.shields.io/github/kivraid/kivraid?style=social&color=white)](https://github.com/kivraid/kivraid/stargazers)  
+  Ultra-lightweight identity provider built as a single static Go binary with embedded SQLite. Features OIDC, forward authentication, LDAP connector, passkeys, and low memory footprint (~26 MB RAM).
 
 ---
 
+## 🛠️ Architecture & Best Practices
 
+```
+                                  [ Enterprise Directory ]
+                                (Active Directory / OpenLDAP)
+                                             |
+                                  [ Directory Connector ]
+                           (LSC / BoxyHQ / Microsoft Entra Connect)
+                                             |
+                      +----------------------+----------------------+
+                      |                                             |
+           [ Core Identity Provider ]                     [ SCIM Provisioning ]
+       (Keycloak / ZITADEL / Authentik)            (Okta / Entra / Jackson / Syncope)
+                      |                                             |
+      +---------------+---------------+                             v
+      |               |               |                    [ Downstream SaaS Apps ]
+ [ SAML 2.0 ]     [ OIDC ]      [ Passkeys ]            (Salesforce / Slack / GitHub)
+      |               |               |
+      +---------------+---------------+
+                      v
+             [ End User / Browser ]
+```
 
-**Made for identity architects, IT administrators, security engineers, and developers building transparent directory synchronization and SSO solutions.**  
+- **Identity Federation (SSO)**: Standardize on **OpenID Connect (OIDC)** for modern mobile and cloud applications, and **SAML 2.0** for legacy corporate applications.
+- **Directory Synchronization (Provisioning)**: Adopt **SCIM 2.0 (RFC 7643 & RFC 7644)** for cloud user provisioning, replacing proprietary or point-to-point scripts.
+- **Hybrid Directory Bridging**: Deploy connectors like **Keycloak User Federation**, **LSC**, or **Microsoft Entra Connect** to bridge legacy on-premises LDAP / Active Directory servers with modern cloud IAM.
 
-Let's make Directory Synchronization & SSO more open, secure, and interoperable.
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcome! Help make this the most complete, factual directory synchronization reference:
+
+1. 🍴 Fork the repository.
+2. 🌿 Create a feature branch (`git checkout -b feature/add-identity-solution`).
+3. 📝 Add your entry under the appropriate section following the existing table or list format.
+4. 🔗 Ensure all URLs, GitHub links, and license/pricing specifications are accurate.
+5. 🚀 Open a Pull Request with a clear description of the project.
+
+---
+
+## 💖 Support & Sponsoring
+
+If this curated ecosystem helps streamline your identity architecture, save engineering hours, or evaluate directory federation tooling, consider supporting the maintenance of this repository:
+
+- ⭐ **Star this repository** to help other engineers, architects, and IT teams discover it.
+- 🍴 **Fork and share** it across your developer community, Reddit, Hacker News, or LinkedIn.
+- ☕ **Buy me a coffee & Sponsor on GitHub**: Support ongoing open-source curation and development via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Directory-Synchronization-SSO&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Directory-Synchronization-SSO&type=date&legend=top-left)
+
+---
+
+## 📜 Disclaimer
+
+- This is a community-curated directory intended for educational and architectural reference—not a formal commercial endorsement.
+- All product names, trademarks, and registered trademarks are property of their respective owners.
+- Identity and directory systems handle sensitive authentication tokens, password hashes, and user PII. Always enforce rigorous security hardening, TLS certificates, network segmentation, and compliance audits (SOC 2, ISO 27001, GDPR) before moving to production.
+
+---
+
+<p align="center">
+  <b>Built for Identity Architects, Security Engineers, IT Administrators &amp; Full-Stack Developers.</b><br/>
+  <i>Let's make Directory Synchronization, SCIM, and Single Sign-On more open, interoperable, and secure.</i>
+</p>
