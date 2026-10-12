@@ -30,13 +30,17 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
+
+
+
+## Sector Overview & Market Dynamics
+
+The global Identity and Access Management (IAM) and Single Sign-On (SSO) market is estimated at **$24B–$27B in 2026** (with the dedicated enterprise SSO segment representing approximately **$4.5B–$5.5B**), growing at an annual rate of 12%–14%. The sector exhibits an **oligopolistic, highly concentrated structure at the enterprise core**—dominated by hyperscalers and dedicated platform giants like Microsoft Entra ID and Okta—alongside **moderate fragmentation across specialized tiers**, where emerging SaaS vendors and open-source stacks cater to hybrid directory syncing, CIAM, and decentralized protocol workflows.
 
 
 
